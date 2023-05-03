@@ -33,11 +33,13 @@ class house:
 
 #creating objects
 obj_h=house("23 Baker st main Boulvard",5)
-# obj_h.display()
+
 obj_h.add_person(["Alma","Katie","Matt"],[24,12,65])
 
 print("After adding the new name: ")
+
 obj_h.add_person(["Ariel"],[34])
+
 obj_h.display()
 print()
 obj_h.remove_person()
